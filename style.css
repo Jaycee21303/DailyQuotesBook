@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f4f0e5;
+    color: #333;
+}
+header {
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: #c6a24a;
+    font-weight: 700;
+}
+nav a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+.cover {
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.subtitle {
+    font-size: 20px;
+    color: #7a6e5a;
+}
+.prices {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.price-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.price {
+    font-size: 24px;
+    color: #2d2a26;
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    background: #c6a24a;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.quotes {
+    max-width: 700px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #5a5145;
+    line-height: 1.6;
+}
+footer {
+    background: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+}
